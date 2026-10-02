@@ -11,9 +11,9 @@ const Header = () => {
       <nav>
         <ul className="flex list-none items-center gap-8">
           <li><Link to="/" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Home</Link></li>
-          <li><Link to="/" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Jogos</Link></li>
-          <li><Link to="/" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Contato</Link></li>
-          <li><Link to="/" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Login</Link></li>
+          <li><Link to="/Jogos" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Jogos</Link></li>
+          <li><Link to="/Contato" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Contato</Link></li>
+          <li><Link to="/Login" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase">Login</Link></li>
         </ul>
       </nav>
     </header> 
